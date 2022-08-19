@@ -1,0 +1,111 @@
+#serviceTitle {
+    margin: 40px;
+    text-align: center;
+    color: white;
+    border: 10px solid white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    background-color: #F2CB0C;
+    justify-content: space-evenly;
+  }
+  
+  #serviceContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+  }
+  
+  #innerservicecontainer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  #innerservicecontainer h2 {
+    margin: auto 10px;
+  }
+  #addBtn {
+    margin-left: 20px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(139, 69, 19);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+  }
+  
+  #submitBtn {
+    margin: auto;
+    margin-top: 10px;
+    width: 60px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f5bb00;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  #aboutUsTitle {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content:space-evenly;
+  }
+  .barItem {
+    font-size: 30px;
+    color: white;
+    margin: 40px;
+  }
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color:white;
+    background-color: #F2CB0C;
+    border: 5px solid white;
+  }
+  
+  .aboutMe h2 {
+    margin: 20px;
+  }
+  .aboutMe h3 {
+    margin: 20px;
+  }
+  .aboutMe p {
+    margin: 20px;
+  }
+  .aboutMe a {
+    margin: 20px;
+    color:white;
+  }
+  
+  @media(max-width:1030px) {
+    #serviceTitle {
+      margin:20px;
+      padding:10px;
+      font-size:30px;
+    }
+    #serviceContainer {
+      margin:20px;
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    } 
+  }
+  
