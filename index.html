@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+    <script defer type="module" src="firebase.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"
+        ><div class="barItem" id="Main Page">Main Page</div></a
+      >
+      <a href="aboutUs.html"
+        ><div class="barItem" id="aboutUs">About Us</div></a
+      >
+    </nav>
+    <div>
+      <h1 id="serviceTitle">
+        <img
+          src="https://cdn.glitch.global/8ce3e320-8319-4277-9b5e-6f5b28a06325/team_logo?v=1660665459617"
+          id="logo"/>DummyLaborer
+      </h1>
+    </div>
+    <form id="addServiceForm">
+      <label for="inputName">Service Name:</label>
+      <input type="text" id="inputName" />
+      <br />
+      <br />
+      <label for="inputDesc">Service Description:</label>
+      <input type="text" id="inputDesc" />
+      <button id="submitBtn"><span></span>Submit</button>
+    </form>
+    <div id="serviceContainer">
+      <div id="innerservicecontainer">
+        <!--       <h2 id="serviceTitle" class="space">Contact</h2> 
+      <h2 id="serviceTitle" class="space">About us</h2>
+      <h2 id="serviceTitle" class="space">Login</h2> -->
+      </div>
+    </div>
+  </body>
+</html>
